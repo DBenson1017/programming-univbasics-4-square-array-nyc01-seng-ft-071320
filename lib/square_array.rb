@@ -7,7 +7,7 @@ def square_array(array)
   n = array.length 
 
 n.times do |index| 
-    x=array[index] ** 2 
+    x=(array[index]) ** 2 
     s_array.push(x) 
     binding.pry
     puts "hi"
