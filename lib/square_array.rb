@@ -13,5 +13,6 @@ n.times do |index|
     binding.pry
     puts "hi"
 end
+end
 
 square_array(test)
