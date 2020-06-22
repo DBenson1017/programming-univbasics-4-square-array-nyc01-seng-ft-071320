@@ -10,4 +10,5 @@ while index<array.length do
     new_array.push(x)
     index += 1 
   end
+  return new_array
 end
