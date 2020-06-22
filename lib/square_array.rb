@@ -4,13 +4,12 @@ test = [1,2,3,4]
 
 def square_array(array)
   new_array = []
-  n = array.length 
+  index = 0
 
-n.times do |index| 
+while n<array.length do 
     x=(array[index]) ** 2 
-    new_array.push(x) 
-    binding.pry
-    puts "hi"
+    new_array.push(x)
+index += 1 
 end
 end
 
