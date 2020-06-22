@@ -8,7 +8,6 @@ def square_array(array)
 
 n.times do |index| 
     x=array[index] ** 2 
-    binding.pry
     s_array.push(x) 
     binding.pry
     puts "hi"
